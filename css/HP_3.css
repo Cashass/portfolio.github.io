@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*    Обнуление   */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webcit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjyst: 100;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*    */
+body {
+  font-family: Lato;
+}
+
+.background__body-1 {
+  max-width: 843px;
+  margin: 0 auto;
+}
+
+.background__BG {
+  position: absolute;
+  background: url("../img/icons/bg_header_743.png") no-repeat;
+  width: 1920px;
+  height: 1020px;
+}
+
+.background__logo {
+  position: relative;
+  width: 196px;
+  height: 124px;
+  top: 147px;
+  left: 850px;
+}
+
+.background__text {
+  position: relative;
+  text-align: center;
+  top: 310px;
+  left: 525px;
+  letter-spacing: 0.16em;
+  line-height: 40px;
+  color: #ffffff;
+  /* Text styles for "Clear, smart, attractive design '" */
+  /* Text styles for "for your app, logo, website" */
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.background__text h2 {
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.background__text:after {
+  content: '';
+  position: absolute;
+  width: 105px;
+  bottom: 2;
+  height: 2px;
+  top: 130px;
+  left: 370px;
+  background-color: #ffffff;
+}
+
+.background__button {
+  position: relative;
+  top: 565px;
+  left: 868px;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  display: inline-block;
+  width: 182px;
+  height: 47px;
+  padding: 8px;
+  border: 1px solid #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+.background__button span {
+  color: #ffffff;
+}
+
+.background__row-down {
+  position: relative;
+  top: 660px;
+  left: 950px;
+}
